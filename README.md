@@ -8,3 +8,4 @@
   - ### [log(data)](https://developers.google.com/apps-script/reference/base/logger#log(Object))
 
 - ### [Spreadsheet](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet)
+  - ### [getUrl()](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getUrl())
