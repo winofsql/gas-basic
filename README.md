@@ -16,6 +16,8 @@
   - ### [getRange(a1Notation)](https://developers.google.com/apps-script/reference/spreadsheet/sheet#getRange(String)) => [Range](https://developers.google.com/apps-script/reference/spreadsheet/range)
 
 - ### [Range](https://developers.google.com/apps-script/reference/spreadsheet/range)
+  - ### [getValue()](https://developers.google.com/apps-script/reference/spreadsheet/range#getValue())
+  - ### [getDisplayValue()](https://developers.google.com/apps-script/reference/spreadsheet/range#getDisplayValue())
 
 - ### [Ui](https://developers.google.com/apps-script/reference/base/ui.html)
   - ### [alert(prompt)](https://developers.google.com/apps-script/reference/base/ui#alert(String))
