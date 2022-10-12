@@ -13,6 +13,7 @@
 
 - ### [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
   - ### [getName()](https://developers.google.com/apps-script/reference/spreadsheet/sheet#getName())
+  - ### [getRange(a1Notation)](https://developers.google.com/apps-script/reference/spreadsheet/sheet#getRange(String))
 
 - ### [Ui](https://developers.google.com/apps-script/reference/base/ui.html)
   - ### [alert(prompt)](https://developers.google.com/apps-script/reference/base/ui#alert(String))
