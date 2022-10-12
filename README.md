@@ -17,3 +17,5 @@
 - ### [Ui](https://developers.google.com/apps-script/reference/base/ui.html)
   - ### [alert(prompt)](https://developers.google.com/apps-script/reference/base/ui#alert(String))
   - ### [prompt(title, prompt, buttons)](https://developers.google.com/apps-script/reference/base/ui#prompt(String,String,ButtonSet))
+
+- ### [console](https://developers.google.com/apps-script/reference/base/console)
