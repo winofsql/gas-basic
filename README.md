@@ -24,4 +24,4 @@
   - ### [prompt(title, prompt, buttons)](https://developers.google.com/apps-script/reference/base/ui#prompt(String,String,ButtonSet))
 
 - ### [console](https://developers.google.com/apps-script/reference/base/console)
-- ### [sendEmail(recipient, subject, body)](https://developers.google.com/apps-script/reference/gmail/gmail-app#sendEmail(String,String,String))
+- ### [GmailApp.sendEmail(recipient, subject, body)](https://developers.google.com/apps-script/reference/gmail/gmail-app#sendEmail(String,String,String))
