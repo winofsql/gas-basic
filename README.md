@@ -12,3 +12,4 @@
   - ### [getActiveSheet()](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getActiveSheet()) => [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
 
 - ### [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
+  - ### [getName()](https://developers.google.com/apps-script/reference/spreadsheet/sheet#getName())
