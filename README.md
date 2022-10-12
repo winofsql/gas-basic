@@ -9,3 +9,4 @@
 
 - ### [Spreadsheet](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet)
   - ### [getUrl()](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getUrl())
+  - ### [getActiveSheet()](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getActiveSheet())
