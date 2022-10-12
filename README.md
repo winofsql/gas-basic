@@ -15,6 +15,8 @@
   - ### [getName()](https://developers.google.com/apps-script/reference/spreadsheet/sheet#getName())
   - ### [getRange(a1Notation)](https://developers.google.com/apps-script/reference/spreadsheet/sheet#getRange(String)) => [Range](https://developers.google.com/apps-script/reference/spreadsheet/range)
 
+- ### [Range](https://developers.google.com/apps-script/reference/spreadsheet/range)
+
 - ### [Ui](https://developers.google.com/apps-script/reference/base/ui.html)
   - ### [alert(prompt)](https://developers.google.com/apps-script/reference/base/ui#alert(String))
   - ### [prompt(title, prompt, buttons)](https://developers.google.com/apps-script/reference/base/ui#prompt(String,String,ButtonSet))
