@@ -17,7 +17,7 @@ function myMacro1() {
 };
 ```
 
-### セルへの書き込み
+### セルへの書き込みと他のセルからのデータの取得 )
 ```javascript
 function cellAction() {
 
