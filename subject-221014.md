@@ -16,3 +16,35 @@ function myMacro1() {
   
 };
 ```
+
+### セルへの書き込み
+```javascript
+function cellAction() {
+
+  // データのクリア
+  myMacro1();
+
+  // 対象のスプレッドシートの ID を設定
+  var id = "1Zx6ylOhCwQDGK-UBtQE_i061umoZwBZz3Gj_Rie6eJI";
+
+  // 対象のスプレッドシート
+  var spreadsheet = SpreadsheetApp.openById(id);
+
+  // シート名
+  var sheetName = "こんにちは";
+
+  // 対象のシート
+  var sheet = spreadsheet.getSheetByName(`${sheetName}`);
+
+
+  for( var i = 1; i <= 10; i++ ) {
+    // 範囲の指定
+    var range = sheet.getRange("B" + i );
+
+    // セルに値をセット
+    range.setValue("日本語" + i );
+
+  }
+  
+}
+```
