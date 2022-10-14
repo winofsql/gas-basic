@@ -3,12 +3,19 @@ var cur_ui;
 
 function gas_basic_01() {
 
+  // 現在のスプレッドシートの Ui インスタンスを取得
   cur_ui = SpreadsheetApp.getUi();
 
+  // 現在のスプレッドシートインスタンスを取得
   var book = SpreadsheetApp.getActiveSpreadsheet();
+  // 現在のスプレッドシートの URL を取得
   Logger.log(book.getUrl());
+  // ID を保存しておくと、URL からすぐ目的のスプレッドシートが開く
+  Logger.log(book.getId() );
 
+  // 現在のスプレットシートが持つシート一覧の先頭のインスタンス( Sheet )を取得
   var sheet = book.getSheets()[0];
+  // シート名の表示
   Logger.log(sheet.getName());
 
   cur_ui.alert('こんにちは 世界');
