@@ -60,3 +60,31 @@ function cellAction() {
  
 }
 ```
+
+### Excel VBA 処理
+```vb
+Sub Test1()
+
+    Dim range As range
+    
+    Set range = Sheet1.range("A1")
+    
+    range.Value = ThisWorkbook.Name
+    
+    Set range = Sheet1.range("A2")
+
+    range.Value = Sheet1.Name
+
+    Set range = Sheet1.range("A3")
+
+    range.Value = "あいうえお"
+    
+    For I = 1 To 10
+    
+        Set range = Sheet1.range("B" & I)
+        range.Value = "日本語" & I
+    
+    Next
+
+End Sub
+```
