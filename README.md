@@ -10,6 +10,7 @@
 - ### [Spreadsheet](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet)
   - ### [getUrl()](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getUrl())
   - ### [getActiveSheet()](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getActiveSheet()) => [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
+  - ### [getSheets()](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getsheets) => Sheet[]
 
 - ### [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
   - ### [getName()](https://developers.google.com/apps-script/reference/spreadsheet/sheet#getName())
