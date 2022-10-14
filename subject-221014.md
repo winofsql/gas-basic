@@ -45,6 +45,18 @@ function cellAction() {
     range.setValue("日本語" + i );
 
   }
-  
+
+  for( var i = 1; i <= 10; i++ ) {
+    // 範囲の指定
+    var range = sheet.getRange("B" + i );
+    var range2 = sheet.getRange("D" + i );
+    var range3 = sheet.getRange("F" + i );
+
+    // セルに値をセット
+    range2.setValue( range.getValue().toString() );
+    range3.setValue( range.getDisplayValue() );
+
+  }
+ 
 }
 ```
