@@ -104,6 +104,10 @@ function myFunction() {
   var spreadsheet2 = SpreadsheetApp.openById("1Zx6ylOhCwQDGK-UBtQE_i061umoZwBZz3Gj_Rie6eJI");
   var sheet2 = spreadsheet2.getSheetByName("社員マスタ");
 
+  sheet2.getRange('A:A').setNumberFormat('@');
+  sheet2.getRange('D:D').setNumberFormat('@');
+  sheet2.getRange('J:J').setNumberFormat('@');
+  
   var i = 1;
   while( true ) {
 
