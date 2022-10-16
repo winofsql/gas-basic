@@ -1,4 +1,5 @@
 # マクロコードの確認
+### SpreadsheetApp => Spreadsheet => Sheet => Range
 ```javascript
 function myMacro1() {
 
